@@ -1,0 +1,13 @@
+#!/bin/bash
+tput setaf 6
+echo "whats your files extension exampels are txt or sh"
+read extension
+clear
+tput setaf 3
+echo "Hey what do you want to call your file"
+read filename
+clear
+tput setaf 12
+echo "what do you want to write inside of this file"
+read code
+echo "$code" > "$(dirname "${BASH_SOURCE[0]}")/$filename.$extension"
