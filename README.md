@@ -1,4 +1,4 @@
-# Simple File Maker
+# Simple File Maker in shell
 
 This is a basic Bash script (`fileMaker.sh`) that helps you quickly create a new file with a custom name, extension, and content. It's useful for generating simple files like `.txt`, `.sh`, or other custom extensions directly from the terminal.
 
